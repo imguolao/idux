@@ -27,20 +27,12 @@
     "*.{js,ts,tsx,vue,json}": [
       "prettier --write"
     ],
-    "*.{js,ts,tsx,vue}": [
-      "eslint --fix"
-    ],
     "*.less": [
       "stylelint --fix"
     ],
     "*.md": [
       "markdownlint --fix"
     ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   },
   "dependencies": {
     "@juggle/resize-observer": "^3.3.1",
